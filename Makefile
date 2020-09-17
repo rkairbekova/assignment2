@@ -19,5 +19,5 @@ stop:
 	@kubectl delete -f front-deployment.yaml
 	@kubectl delete -f front-service.yaml
 	@kubectl delete -f secret.yaml
-clean: stop
+clean: 
 	@kubectl delete -f pvc.yaml

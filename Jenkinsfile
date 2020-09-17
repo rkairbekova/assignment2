@@ -34,7 +34,6 @@ spec:
       container('jenkins-slave') {
         sh '''
         make run
-        make fill-db
         '''
       }
     }
